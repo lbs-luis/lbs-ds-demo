@@ -1,0 +1,12 @@
+{
+  "author": "@luis",
+  "name": "lbs-ds",
+  "description": "Monorepo strategy in design system",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {}
+}

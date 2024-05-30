@@ -1,0 +1,8 @@
+{
+  "author": "@luis",
+  "name": "@lbs-ds/ts-config",
+  "description": "Typescript configurations for modular packages",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true
+}
