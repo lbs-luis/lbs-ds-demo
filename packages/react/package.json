@@ -1,0 +1,21 @@
+{
+  "author": "@luis",
+  "name": "@lbs-ds/react",
+  "description": "Design system components for React",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@lbs-ds/ts-config": "*",
+    "@lbs-ds/tokens": "*",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
