@@ -5,14 +5,14 @@
   "version": "1.0.0",
   "license": "MIT",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
+  "scripts": {    
     "build": "storybook build",
-    "docs": "storybook dev -p 6006",
+    "dev": "storybook dev -p 6006",
     "preview": "vite preview"
   },
   "dependencies": {
     "@lbs-ds/eslint-config": "*",
+    "@lbs-ds/ts-config": "*",
     "@lbs-ds/react": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
